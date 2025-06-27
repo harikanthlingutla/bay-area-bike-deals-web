@@ -12,8 +12,8 @@ const Index = () => {
       description: "Family-owned shop serving the Tracy community with personal attention and care",
     },
     {
-      title: "Reynaldo's Expertise",
-      description: "Every bike is personally inspected and tested by Reynaldo before sale",
+      title: "Expert Knowledge",
+      description: "Every bike is personally inspected and tested by our experienced team before sale",
     },
     {
       title: "Unbeatable Prices",
@@ -35,13 +35,13 @@ const Index = () => {
         <div className="absolute inset-0 bg-black bg-opacity-50"></div>
         <div className="relative z-10 text-center text-white max-w-4xl mx-auto px-4">
           <h1 className="text-4xl md:text-6xl font-bold mb-6">
-            Reynaldo's Bikes
+            Bay Bike Shop
           </h1>
           <p className="text-xl md:text-2xl mb-4 font-light">
             Quality Bikes, Honest Prices, Tracy CA
           </p>
           <p className="text-lg mb-8 text-gray-200">
-            "Your neighborhood bike expert since day one" - Reynaldo Valenzuela
+            "Your trusted Bay Area bike specialists since day one"
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link to="/bikes">
@@ -51,7 +51,7 @@ const Index = () => {
             </Link>
             <Link to="/contact">
               <Button size="lg" variant="outline" className="w-full sm:w-auto text-white border-white hover:bg-white hover:text-black">
-                Meet Reynaldo
+                Contact Us
               </Button>
             </Link>
           </div>
@@ -63,7 +63,7 @@ const Index = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-              Why Choose Reynaldo's Bikes?
+              Why Choose Bay Bike Shop?
             </h2>
             <p className="text-xl text-gray-600 max-w-2xl mx-auto">
               More than just a bike shop - we're your trusted Tracy cycling partner
@@ -93,7 +93,7 @@ const Index = () => {
               Fresh Arrivals
             </h2>
             <p className="text-xl text-gray-600">
-              Reynaldo's latest picks - inspected and ready to ride
+              Our latest picks - inspected and ready to ride
             </p>
           </div>
           

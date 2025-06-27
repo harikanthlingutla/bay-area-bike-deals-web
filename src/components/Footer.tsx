@@ -8,10 +8,10 @@ const Footer = () => {
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="flex items-center space-x-2 mb-4 md:mb-0">
             <div className="w-8 h-8 bg-blue-600 rounded-full flex items-center justify-center">
-              <span className="text-white font-bold text-sm">RV</span>
+              <span className="text-white font-bold text-sm">BB</span>
             </div>
             <div>
-              <span className="font-bold text-xl">Reynaldo's Bikes</span>
+              <span className="font-bold text-xl">Bay Bike Shop</span>
               <p className="text-sm text-gray-400">Tracy, CA</p>
             </div>
           </div>
@@ -44,7 +44,7 @@ const Footer = () => {
           </div>
 
           <div className="text-sm text-gray-400 text-center md:text-right">
-            <p>© 2024 Reynaldo's Bikes. All rights reserved.</p>
+            <p>© 2024 Bay Bike Shop. All rights reserved.</p>
             <p className="text-xs">3180 Jerrold Zanzi Ln, Tracy CA 95377</p>
           </div>
         </div>
