@@ -8,16 +8,16 @@ import { mockBikes } from "@/data/mockBikes";
 const Index = () => {
   const whyChooseUs = [
     {
-      title: "Local Business",
-      description: "Family-owned shop serving the Bay Area community for over 10 years",
+      title: "Local Tracy Business",
+      description: "Family-owned shop serving the Tracy community with personal attention and care",
     },
     {
-      title: "Test Rides Available",
-      description: "Try before you buy - we encourage test rides on all our bikes",
+      title: "Reynaldo's Expertise",
+      description: "Every bike is personally inspected and tested by Reynaldo before sale",
     },
     {
-      title: "Affordable Prices",
-      description: "Quality pre-owned bikes at unbeatable prices with warranties included",
+      title: "Unbeatable Prices",
+      description: "Quality pre-owned bikes at fair prices with honest descriptions",
     },
   ];
 
@@ -35,20 +35,23 @@ const Index = () => {
         <div className="absolute inset-0 bg-black bg-opacity-50"></div>
         <div className="relative z-10 text-center text-white max-w-4xl mx-auto px-4">
           <h1 className="text-4xl md:text-6xl font-bold mb-6">
-            Bay Area Bike Deals
+            Reynaldo's Bikes
           </h1>
-          <p className="text-xl md:text-2xl mb-8 font-light">
-            Reliable Bikes, Affordable Prices
+          <p className="text-xl md:text-2xl mb-4 font-light">
+            Quality Bikes, Honest Prices, Tracy CA
+          </p>
+          <p className="text-lg mb-8 text-gray-200">
+            "Your neighborhood bike expert since day one" - Reynaldo Valenzuela
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link to="/bikes">
               <Button size="lg" className="w-full sm:w-auto bg-blue-600 hover:bg-blue-700">
-                Browse Bikes
+                Browse Our Bikes
               </Button>
             </Link>
             <Link to="/contact">
               <Button size="lg" variant="outline" className="w-full sm:w-auto text-white border-white hover:bg-white hover:text-black">
-                Contact Us
+                Meet Reynaldo
               </Button>
             </Link>
           </div>
@@ -60,10 +63,10 @@ const Index = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-              Why Buy From Us?
+              Why Choose Reynaldo's Bikes?
             </h2>
             <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-              We're more than just a bike shop - we're your local cycling community
+              More than just a bike shop - we're your trusted Tracy cycling partner
             </p>
           </div>
           
@@ -87,10 +90,10 @@ const Index = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-              Latest Arrivals
+              Fresh Arrivals
             </h2>
             <p className="text-xl text-gray-600">
-              Check out our newest bikes in stock
+              Reynaldo's latest picks - inspected and ready to ride
             </p>
           </div>
           
@@ -103,7 +106,7 @@ const Index = () => {
           <div className="text-center">
             <Link to="/bikes">
               <Button size="lg" variant="outline" className="border-blue-600 text-blue-600 hover:bg-blue-600 hover:text-white">
-                View All Bikes
+                View All Available Bikes
               </Button>
             </Link>
           </div>

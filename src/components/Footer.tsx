@@ -8,9 +8,12 @@ const Footer = () => {
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="flex items-center space-x-2 mb-4 md:mb-0">
             <div className="w-8 h-8 bg-blue-600 rounded-full flex items-center justify-center">
-              <span className="text-white font-bold text-sm">BB</span>
+              <span className="text-white font-bold text-sm">RV</span>
             </div>
-            <span className="font-bold text-xl">Bay Bikes</span>
+            <div>
+              <span className="font-bold text-xl">Reynaldo's Bikes</span>
+              <p className="text-sm text-gray-400">Tracy, CA</p>
+            </div>
           </div>
 
           <div className="flex space-x-6 mb-4 md:mb-0">
@@ -31,7 +34,7 @@ const Footer = () => {
               <Instagram className="h-5 w-5" />
             </a>
             <a
-              href="https://wa.me/1234567890"
+              href="https://wa.me/12095552453"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-400 hover:text-white transition-colors"
@@ -40,8 +43,9 @@ const Footer = () => {
             </a>
           </div>
 
-          <div className="text-sm text-gray-400">
-            © 2024 Bay Bikes. All rights reserved.
+          <div className="text-sm text-gray-400 text-center md:text-right">
+            <p>© 2024 Reynaldo's Bikes. All rights reserved.</p>
+            <p className="text-xs">3180 Jerrold Zanzi Ln, Tracy CA 95377</p>
           </div>
         </div>
       </div>
